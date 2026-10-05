@@ -1,4 +1,16 @@
 {
   "version": 2,
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/checkout",
+      "destination": "https://agilemprestimos-analise.shop/checkout/",
+      "permanent": false
+    },
+    {
+      "source": "/checkout/:path*",
+      "destination": "https://agilemprestimos-analise.shop/checkout/:path*",
+      "permanent": false
+    }
+  ]
 }
